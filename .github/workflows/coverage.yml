@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm i
+      - run: npm install
       - uses: ArtiomTr/jest-coverage-report-action@v2
         id: coverage
         with:
